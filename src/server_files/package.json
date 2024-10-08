@@ -1,0 +1,15 @@
+{
+    "name": "example-app",
+    "type": "commonjs",
+    "dependencies": {
+        "express": "latest",
+        "nodemon": "latest"
+    },
+    "scripts": {
+        "build": "esbuild index.js --bundle --platform=node --target=node18.20.3 --outfile=output.js",
+        "start": "nodemon --watch './' index.js"
+    },
+    "devDependencies": {
+        "esbuild": "^0.23.1"
+    }
+}
