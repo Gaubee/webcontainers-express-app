@@ -16,7 +16,7 @@
 1. pnpm start
 1. 更改访问的 url 为 http://localhost:5173/?hook
 1. 接下来需要注意几点：
-   1. 如果你有开网络代理，务必将 _.local 排除在代理在外，在 windows 系统上，到代理设置中，添加这条规则：`;_.local`
+   1. 如果你有开网络代理，务必将 `*.local` 排除在代理在外，在 windows 系统上，到代理设置中，添加这条规则：`;*.local`
    1. 将以下几条规则添加到 hosts 文件中，建议使用 PowerToys 提供的 “Hosts 文件编辑器”：
       ```host
        127.0.0.1    stackblitz.gaubee.local
